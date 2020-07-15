@@ -2,6 +2,10 @@
 
 This reproduce the Parity Chain problem in the TerpreT paper and figure out a way to solve it.
 
+TerpreT: A Probabilistic Programming Language for Program Induction, Gaunt et al. 2016.
+
+I also write a short description here at 
+
 ## options
 
 1. type == 0: continuous surrogate.
