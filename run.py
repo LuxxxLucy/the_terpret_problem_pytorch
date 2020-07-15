@@ -38,7 +38,7 @@ if __name__ == "__main__":
         ''' type 3: using Binary Optimizer (Bop) '''
         tp = TerpretProblem_Bop(opts)
         # optimizer = Bop(binary_params=tp.parameters(), ar=0.00001, threshold=0.000001, continuous_optimizer=None)
-        optimizer = Bop(binary_params=tp.parameters(), ar=0.00001, threshold=0.01, continuous_optimizer=None)
+        optimizer = Bop(binary_params=tp.parameters(), ar=0.00001, threshold=0.1, continuous_optimizer=None)
     else:
         print("not defined type")
         quit()
