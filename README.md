@@ -4,7 +4,7 @@ This reproduce the Parity Chain problem in the TerpreT paper and figure out a wa
 
 TerpreT: A Probabilistic Programming Language for Program Induction, Gaunt et al. 2016.
 
-I also write a short description here at 
+I also write a short description [here](https://luxxxlucy.github.io/projects/2020_terpret/terpret.html)
 
 ## options
 
