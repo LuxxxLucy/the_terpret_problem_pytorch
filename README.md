@@ -6,6 +6,7 @@ TerpreT: A Probabilistic Programming Language for Program Induction, Gaunt et al
 
 I also write a short description [here](https://luxxxlucy.github.io/projects/2020_terpret/terpret.html)
 
+
 ## options
 
 1. type == 0: continuous surrogate.
@@ -22,3 +23,6 @@ run
 
 
 And you can see the Bop converges to the right solution in about 100 epochs. For k=1024, Bop converge to the right solution in about 900 epoch.
+
+
+You can also comment line 15 in `run.py` and uncomment line 16 so that every time it runs with different random seed. But anyway I tested with many random seed, Bop can always reach the good solutions.
